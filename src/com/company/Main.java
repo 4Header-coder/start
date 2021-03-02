@@ -16,12 +16,13 @@ public class Main {
 4) Реализовать алгоритм поиска максимального и минимального элемента в массиве, сделать коммит в репозиторий
  */
         int arr[];
-        arr = new int [99];
-        for (int i=0;i<arr.length;i++)
-            arr[i] = (int) ( Math.random() * 99);
-        for (int i: arr)
-            System.out.print(i + " ");
+        arr = new int [100];
+            for (int i=0;i<arr.length;i++) {
+            arr[i] = (int) (Math.random() * 100);
+            System.out.print(arr[i] + " ");
+            }
 
+        }
     }
 
-}
+
